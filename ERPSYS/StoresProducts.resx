@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 6</value>
+  </data>
+  <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>الفرع</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 35</value>
+  </data>
+  <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 18</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>المخزن</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtBarCode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtBarCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="txtBarCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 64</value>
+  </data>
+  <data name="txtBarCode.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtBarCode.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="txtBarCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 25</value>
+  </data>
+  <data name="txtBarCode.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;txtBarCode.Name" xml:space="preserve">
+    <value>txtBarCode</value>
+  </data>
+  <data name="&gt;&gt;txtBarCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBarCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBarCode.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>810, 65</value>
+  </data>
+  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 18</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>الباركود</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbStroes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <metadata name="sTORESBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>838, 17</value>
+  </metadata>
+  <metadata name="nEWERPDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="cmbStroes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="cmbStroes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 35</value>
+  </data>
+  <data name="cmbStroes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 26</value>
+  </data>
+  <data name="cmbStroes.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="&gt;&gt;cmbStroes.Name" xml:space="preserve">
+    <value>cmbStroes</value>
+  </data>
+  <data name="&gt;&gt;cmbStroes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbStroes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbStroes.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbBranch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <metadata name="bRANCHESBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>489, 17</value>
+  </metadata>
+  <data name="cmbBranch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="cmbBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 6</value>
+  </data>
+  <data name="cmbBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 26</value>
+  </data>
+  <data name="cmbBranch.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cmbBranch.Name" xml:space="preserve">
+    <value>cmbBranch</value>
+  </data>
+  <data name="&gt;&gt;cmbBranch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbBranch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbBranch.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtProductName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtProductName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="txtProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 35</value>
+  </data>
+  <data name="txtProductName.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtProductName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="txtProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 25</value>
+  </data>
+  <data name="txtProductName.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;txtProductName.Name" xml:space="preserve">
+    <value>txtProductName</value>
+  </data>
+  <data name="&gt;&gt;txtProductName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtProductName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtProductName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>792, 35</value>
+  </data>
+  <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 18</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>أسم الصنف</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtProductCode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtProductCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="txtProductCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 6</value>
+  </data>
+  <data name="txtProductCode.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtProductCode.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="txtProductCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 25</value>
+  </data>
+  <data name="txtProductCode.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;txtProductCode.Name" xml:space="preserve">
+    <value>txtProductCode</value>
+  </data>
+  <data name="&gt;&gt;txtProductCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtProductCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtProductCode.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>793, 6</value>
+  </data>
+  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 18</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>كود الصنف</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="StockDGView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="uitPriceIdDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>UitPriceId</value>
+  </data>
+  <data name="uitPriceIdDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uintIdDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>UintId</value>
+  </data>
+  <data name="uintIdDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="productidDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>productid</value>
+  </data>
+  <data name="productidDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pRODUCTCODEDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>رقم الصنف</value>
+  </data>
+  <data name="pRODUCTCODEDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="productnameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>أسم الصنف</value>
+  </data>
+  <data name="productnameDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="pRODUCTBRANDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>الباركود</value>
+  </data>
+  <data name="pRODUCTBRANDDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <metadata name="UNITDESC.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="UNITDESC.HeaderText" xml:space="preserve">
+    <value>الوحدة</value>
+  </data>
+  <data name="UNITDESC.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="qUANTITYDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>الكمية بالمخزن</value>
+  </data>
+  <data name="qUANTITYDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="orderQTYDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>OrderQTY</value>
+  </data>
+  <data name="orderQTYDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="sTORNAMEDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>أسم المخزن</value>
+  </data>
+  <data name="sTORNAMEDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="conFactorDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>ConFactor</value>
+  </data>
+  <data name="conFactorDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="priceOnlyDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
+    <value>PriceOnly</value>
+  </data>
+  <data name="priceOnlyDataGridViewCheckBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bRANCHNAMEDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>BRANCHNAME</value>
+  </data>
+  <data name="bRANCHNAMEDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dimDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Dim</value>
+  </data>
+  <data name="dimDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dimDescDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>DimDesc</value>
+  </data>
+  <data name="dimDescDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mainUnitDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
+    <value>MainUnit</value>
+  </data>
+  <data name="mainUnitDataGridViewCheckBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="avgCostPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>AvgCostPrice</value>
+  </data>
+  <data name="avgCostPriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="maxCostPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MaxCostPrice</value>
+  </data>
+  <data name="maxCostPriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="minCostPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MinCostPrice</value>
+  </data>
+  <data name="minCostPriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="salePriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>SalePrice</value>
+  </data>
+  <data name="salePriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="minPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MinPrice</value>
+  </data>
+  <data name="minPriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buyPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>BuyPrice</value>
+  </data>
+  <data name="buyPriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="costmerPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CostmerPrice</value>
+  </data>
+  <data name="costmerPriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="privatePriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>PrivatePrice</value>
+  </data>
+  <data name="privatePriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="minprofitDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Minprofit</value>
+  </data>
+  <data name="minprofitDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="maxProfitDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MaxProfit</value>
+  </data>
+  <data name="maxProfitDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="maxSalePriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MaxSalePrice</value>
+  </data>
+  <data name="maxSalePriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="minSalePriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MinSalePrice</value>
+  </data>
+  <data name="minSalePriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lastSalePriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>LastSalePrice</value>
+  </data>
+  <data name="lastSalePriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="maxBuyPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MaxBuyPrice</value>
+  </data>
+  <data name="maxBuyPriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="minBuyPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MinBuyPrice</value>
+  </data>
+  <data name="minBuyPriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lastBuyPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>LastBuyPrice</value>
+  </data>
+  <data name="lastBuyPriceDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="sTOREIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>STOREID</value>
+  </data>
+  <data name="sTOREIDDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="movmentQtyDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MovmentQty</value>
+  </data>
+  <data name="movmentQtyDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="maxQtyDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>MaxQty</value>
+  </data>
+  <data name="maxQtyDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="visitationQtyDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>visitationQty</value>
+  </data>
+  <data name="visitationQtyDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="relatedDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
+    <value>Related</value>
+  </data>
+  <data name="relatedDataGridViewCheckBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="qtyINRoadDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>QtyINRoad</value>
+  </data>
+  <data name="qtyINRoadDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="qtyInStoreDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>QtyInStore</value>
+  </data>
+  <data name="qtyInStoreDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="qtynotAmountDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>QtynotAmount</value>
+  </data>
+  <data name="qtynotAmountDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="qtyNotProchuseDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>QtyNotProchuse</value>
+  </data>
+  <data name="qtyNotProchuseDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="qtyNotCostDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>QtyNotCost</value>
+  </data>
+  <data name="qtyNotCostDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="qtyNotSaleDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>QtyNotSale</value>
+  </data>
+  <data name="qtyNotSaleDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="stockViewBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 17</value>
+  </metadata>
+  <data name="StockDGView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 124</value>
+  </data>
+  <data name="StockDGView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="StockDGView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 384</value>
+  </data>
+  <data name="StockDGView.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;StockDGView.Name" xml:space="preserve">
+    <value>StockDGView</value>
+  </data>
+  <data name="&gt;&gt;StockDGView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StockDGView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StockDGView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="stockViewTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>322, 17</value>
+  </metadata>
+  <metadata name="bRANCHESTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>666, 17</value>
+  </metadata>
+  <metadata name="sTORESTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1000, 17</value>
+  </metadata>
+  <data name="BtnPrint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="BtnPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNklEQVQ4T62QLZKEMBCF5xhjOQISyxG4
+        AhLJFZCRkdjISGRsZGQkNhKJfJvX/MzMsjW7W7td9YoO6f76dW7PMY4BL7KraL/+PtgUExBmwAXAesA4
+        /B7y7wD9dwf4OSAdb+CTyIeEEGeEEKC1fg8axxExRilm7pyT8yHvPay1X0OOBhZQKVtZljVrwZyWEzxN
+        09UJm3lJzfMsk1hooslrOBjjs2yWkf/O8Ww2iFJaJrKJAH4JYW5sBmRXzJ/XeHHBhAASDxALaV3s7454
+        R6ccyB6l1AbgT+5LcdoGetjcircmrQlQ6LoOwzA8ViCE0xgpPxgnbtOUNLK4bVtUVYWiuKO4F+j7/vqQ
+        1LquAuIaPNd1LQ1UWZYCIvBc4XMcoBCiTOfUpmnE/vE+p/13QcieSrDpOvl2+wCdX/JDFCyV0AAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="BtnPrint.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BtnPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 76</value>
+  </data>
+  <data name="BtnPrint.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="BtnPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 33</value>
+  </data>
+  <data name="BtnPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="BtnPrint.Text" xml:space="preserve">
+    <value>معاينة</value>
+  </data>
+  <data name="BtnPrint.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Name" xml:space="preserve">
+    <value>BtnPrint</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CmdClose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="CmdClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABLklEQVQ4T5WRIZODMBCFkUgktrKy8uzJ
+        k5W1yEokFolE1iKR9xeQSCQ2MjLydd+GAOFmbujOfJOE7Hu7bBLG2OY4ohdngsnO1ABaoRFq2Kk4b8Qk
+        FbpqBw0FV0ZdKa9rbMyDJgcWkyCw41M6bGHnWle4DnP/dTRo5HJrm5jhgbRMkFYpssbDPWyJqTt2sFS0
+        YymVKgWW1aQj+1RokHdiVKfxXFQ4PdRAByn/DUsDrhtmuK8mi9QHhURfIgzxIF4NpPq1z+MuKDZDsVX/
+        Y+BNaXBpMvwMN1xeWWzACXsDJrOTpRsjLzAXmH9vOtBquuM5fasJz6sBXK8CJ8NiciD83thmQAIVNca/
+        jooZW5KHif8RiRn8yCUknN0LPvaXn6yCj7OC4yr42F98shckkuQN0WAkjtKK9UIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="CmdClose.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CmdClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 76</value>
+  </data>
+  <data name="CmdClose.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CmdClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 33</value>
+  </data>
+  <data name="CmdClose.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="CmdClose.Text" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="CmdClose.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;CmdClose.Name" xml:space="preserve">
+    <value>CmdClose</value>
+  </data>
+  <data name="&gt;&gt;CmdClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmdClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CmdClose.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CmdSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="CmdSearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABJ0lEQVQ4T5VSoXLEIBTMZ9Te75yMrK08
+        eTI2EonEIpFILDISGRsZGbl9+xo6105Im53ZIWHY3fcedH/BhglO6NOs3Lf/h5QKyrohr0BYgEjOmxru
+        R9oIeQYhethpw5hWOFlpkmXPuNQ2sS5rKumLJKpwgyyQXxQxTvPSNgjSK5OYynQasZ5XsjXn87FJyAuC
+        nKIBk5lIkXgq1WDjLBoGnDaHxnSWXcXyqZSCtAK2ukt+wtis02b/2rcIaEIhDYhUTq40Rrn3WLR3iiur
+        ySrlGxOPDZB6rCXCWC9XFTHtM6jk9H3rHSD28lLumMcbno93PfQcgk6bFTl/8oCqeDFv8MMd1p48lN/4
+        EvdYxipuTPcITKV4NbfrYiK7x0vZF8UVw8fFnr/RdZ8egJnqMvyodQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="CmdSearch.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CmdSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 76</value>
+  </data>
+  <data name="CmdSearch.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CmdSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 33</value>
+  </data>
+  <data name="CmdSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="CmdSearch.Text" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="CmdSearch.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;CmdSearch.Name" xml:space="preserve">
+    <value>CmdSearch</value>
+  </data>
+  <data name="&gt;&gt;CmdSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmdSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CmdSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="setupBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="setupTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>167, 54</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>101</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>864, 519</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.TabText" xml:space="preserve">
+    <value>المخازن</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>المخازن</value>
+  </data>
+  <data name="&gt;&gt;sTORESBindingSource.Name" xml:space="preserve">
+    <value>sTORESBindingSource</value>
+  </data>
+  <data name="&gt;&gt;sTORESBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nEWERPDataSet.Name" xml:space="preserve">
+    <value>nEWERPDataSet</value>
+  </data>
+  <data name="&gt;&gt;nEWERPDataSet.Type" xml:space="preserve">
+    <value>ERPSYS.NEWERPDataSet, NEWERPDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bRANCHESBindingSource.Name" xml:space="preserve">
+    <value>bRANCHESBindingSource</value>
+  </data>
+  <data name="&gt;&gt;bRANCHESBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uitPriceIdDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>uitPriceIdDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;uitPriceIdDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uintIdDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>uintIdDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;uintIdDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productidDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>productidDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;productidDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pRODUCTCODEDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>pRODUCTCODEDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;pRODUCTCODEDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;productnameDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>productnameDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;productnameDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pRODUCTBRANDDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>pRODUCTBRANDDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;pRODUCTBRANDDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UNITDESC.Name" xml:space="preserve">
+    <value>UNITDESC</value>
+  </data>
+  <data name="&gt;&gt;UNITDESC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;qUANTITYDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>qUANTITYDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;qUANTITYDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;orderQTYDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>orderQTYDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;orderQTYDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sTORNAMEDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>sTORNAMEDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;sTORNAMEDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;conFactorDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>conFactorDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;conFactorDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;priceOnlyDataGridViewCheckBoxColumn.Name" xml:space="preserve">
+    <value>priceOnlyDataGridViewCheckBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;priceOnlyDataGridViewCheckBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bRANCHNAMEDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>bRANCHNAMEDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;bRANCHNAMEDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dimDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>dimDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;dimDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dimDescDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>dimDescDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;dimDescDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainUnitDataGridViewCheckBoxColumn.Name" xml:space="preserve">
+    <value>mainUnitDataGridViewCheckBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;mainUnitDataGridViewCheckBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;avgCostPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>avgCostPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;avgCostPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxCostPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>maxCostPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;maxCostPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;minCostPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>minCostPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;minCostPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;salePriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>salePriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;salePriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;minPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>minPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;minPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buyPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>buyPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;buyPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;costmerPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>costmerPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;costmerPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;privatePriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>privatePriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;privatePriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;minprofitDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>minprofitDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;minprofitDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxProfitDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>maxProfitDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;maxProfitDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxSalePriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>maxSalePriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;maxSalePriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;minSalePriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>minSalePriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;minSalePriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lastSalePriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>lastSalePriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;lastSalePriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxBuyPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>maxBuyPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;maxBuyPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;minBuyPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>minBuyPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;minBuyPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lastBuyPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>lastBuyPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;lastBuyPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sTOREIDDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>sTOREIDDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;sTOREIDDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;movmentQtyDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>movmentQtyDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;movmentQtyDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxQtyDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>maxQtyDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;maxQtyDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;visitationQtyDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>visitationQtyDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;visitationQtyDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;relatedDataGridViewCheckBoxColumn.Name" xml:space="preserve">
+    <value>relatedDataGridViewCheckBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;relatedDataGridViewCheckBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;qtyINRoadDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>qtyINRoadDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;qtyINRoadDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;qtyInStoreDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>qtyInStoreDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;qtyInStoreDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;qtynotAmountDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>qtynotAmountDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;qtynotAmountDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;qtyNotProchuseDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>qtyNotProchuseDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;qtyNotProchuseDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;qtyNotCostDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>qtyNotCostDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;qtyNotCostDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;qtyNotSaleDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>qtyNotSaleDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;qtyNotSaleDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stockViewBindingSource.Name" xml:space="preserve">
+    <value>stockViewBindingSource</value>
+  </data>
+  <data name="&gt;&gt;stockViewBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stockViewTableAdapter.Name" xml:space="preserve">
+    <value>stockViewTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;stockViewTableAdapter.Type" xml:space="preserve">
+    <value>ERPSYS.NEWERPDataSetTableAdapters.StockViewTableAdapter, NEWERPDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bRANCHESTableAdapter.Name" xml:space="preserve">
+    <value>bRANCHESTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;bRANCHESTableAdapter.Type" xml:space="preserve">
+    <value>ERPSYS.NEWERPDataSetTableAdapters.BRANCHESTableAdapter, NEWERPDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sTORESTableAdapter.Name" xml:space="preserve">
+    <value>sTORESTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;sTORESTableAdapter.Type" xml:space="preserve">
+    <value>ERPSYS.NEWERPDataSetTableAdapters.STORESTableAdapter, NEWERPDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;setupBindingSource.Name" xml:space="preserve">
+    <value>setupBindingSource</value>
+  </data>
+  <data name="&gt;&gt;setupBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setupTableAdapter.Name" xml:space="preserve">
+    <value>setupTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;setupTableAdapter.Type" xml:space="preserve">
+    <value>ERPSYS.NEWERPDataSetTableAdapters.setupTableAdapter, NEWERPDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StoresProducts</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>WeifenLuo.WinFormsUI.DockContent, WeifenLuo.WinFormsUI.Docking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

@@ -1,0 +1,25 @@
+SET IDENTITY_INSERT NEWTemp.dbo.qids on
+
+INSERT INTO NEWTemp.dbo.qids (qidid, qidcode, qidDate, description, edit, recitetype, underupdate, name, BrachId, EmpId, Notes, Active, repeated, BankAccId, ChequeNo, InvId, 
+                      ReorderInvId, PaymentType )
+
+SELECT    qidid, qidcode, qidDate, description, edit, recitetype, underupdate, name, BrachId, EmpId, Notes, Active, repeated, BankAccId, ChequeNo, InvId, 
+                      ReorderInvId, PaymentType
+FROM NEWERP.dbo.qids where recitetype not in (3,4,5,8,9,10,11)
+
+SET IDENTITY_INSERT NEWTemp.dbo.qids off
+
+~
+
+ALTER TABLE NEWTemp.dbo.qidsDetails  DISABLE TRIGGER ALL 
+
+SET IDENTITY_INSERT NEWTemp.dbo.qidsDetails on
+
+INSERT INTO NEWTemp.dbo.qidsDetails (  ID, qidid, FromValue, ToValue, ACCOUNTID, type, Description, EnterDate, Detcode, QidType, TotalPrice, ActionType, CostId)
+
+SELECT      ID, qidid, FromValue, ToValue, ACCOUNTID, type, Description, EnterDate, Detcode, QidType, TotalPrice, ActionType, CostId
+FROM NEWERP.dbo.qidsDetails  where QidType not in (3,4,5,8,9,10,11) 
+
+SET IDENTITY_INSERT NEWTemp.dbo.qidsDetails off
+
+ALTER TABLE NEWTemp.dbo.qidsDetails  ENABLE TRIGGER ALL 

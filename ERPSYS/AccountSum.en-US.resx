@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 16</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="cmbBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 10</value>
+  </data>
+  <data name="cmbBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 26</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="BtnPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNklEQVQ4T62QLZKEMBCF5xhjOQISyxG4
+        AhLJFZCRkdjISGRsZGQkNhKJfJvX/MzMsjW7W7td9YoO6f76dW7PMY4BL7KraL/+PtgUExBmwAXAesA4
+        /B7y7wD9dwf4OSAdb+CTyIeEEGeEEKC1fg8axxExRilm7pyT8yHvPay1X0OOBhZQKVtZljVrwZyWEzxN
+        09UJm3lJzfMsk1hooslrOBjjs2yWkf/O8Ww2iFJaJrKJAH4JYW5sBmRXzJ/XeHHBhAASDxALaV3s7454
+        R6ccyB6l1AbgT+5LcdoGetjcircmrQlQ6LoOwzA8ViCE0xgpPxgnbtOUNLK4bVtUVYWiuKO4F+j7/vqQ
+        1LquAuIaPNd1LQ1UWZYCIvBc4XMcoBCiTOfUpmnE/vE+p/13QcieSrDpOvl2+wCdX/JDFCyV0AAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="BtnPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 181</value>
+  </data>
+  <data name="BtnPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 33</value>
+  </data>
+  <data name="BtnPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="CmdClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABLklEQVQ4T5WRIZODMBCFkUgktrKy8uzJ
+        k5W1yEokFolE1iKR9xeQSCQ2MjLydd+GAOFmbujOfJOE7Hu7bBLG2OY4ohdngsnO1ABaoRFq2Kk4b8Qk
+        FbpqBw0FV0ZdKa9rbMyDJgcWkyCw41M6bGHnWle4DnP/dTRo5HJrm5jhgbRMkFYpssbDPWyJqTt2sFS0
+        YymVKgWW1aQj+1RokHdiVKfxXFQ4PdRAByn/DUsDrhtmuK8mi9QHhURfIgzxIF4NpPq1z+MuKDZDsVX/
+        Y+BNaXBpMvwMN1xeWWzACXsDJrOTpRsjLzAXmH9vOtBquuM5fasJz6sBXK8CJ8NiciD83thmQAIVNca/
+        jooZW5KHif8RiRn8yCUknN0LPvaXn6yCj7OC4yr42F98shckkuQN0WAkjtKK9UIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="CmdClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 180</value>
+  </data>
+  <data name="CmdClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 33</value>
+  </data>
+  <data name="CmdClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="cmbAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 10</value>
+  </data>
+  <data name="cmbAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 26</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 12</value>
+  </data>
+  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="dtFromDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 42</value>
+  </data>
+  <data name="dtToDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 75</value>
+  </data>
+  <data name="txtFromDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 42</value>
+  </data>
+  <data name="txtToDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 75</value>
+  </data>
+  <data name="PerviouscheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="PerviouscheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 145</value>
+  </data>
+  <data name="PerviouscheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 20</value>
+  </data>
+  <data name="PerviouscheckBox.Text" xml:space="preserve">
+    <value>Add Previous Balance</value>
+  </data>
+  <data name="checkBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 112</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 20</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>Display Invoice Vouchers</value>
+  </data>
+  <data name="CmbItemSorted.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 184</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 187</value>
+  </data>
+  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="cmbProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 106</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 146</value>
+  </data>
+  <data name="txtTotalFromValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 206</value>
+  </data>
+  <data name="txtTotalToValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 206</value>
+  </data>
+  <data name="CmbCostCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 77</value>
+  </data>
+  <data name="CmbCostCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 26</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 84</value>
+  </data>
+  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 16</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Cost Center</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label7.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 47</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 19</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Account Code</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="AccountCodecmbBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 44</value>
+  </data>
+  <data name="chkBoxMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 143</value>
+  </data>
+  <data name="btnView.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABNklEQVQ4T62QLZKEMBCF5xhjOQISyxG4
+        AhLJFZCRkdjISGRsZGQkNhKJfJvX/MzMsjW7W7td9YoO6f76dW7PMY4BL7KraL/+PtgUExBmwAXAesA4
+        /B7y7wD9dwf4OSAdb+CTyIeEEGeEEKC1fg8axxExRilm7pyT8yHvPay1X0OOBhZQKVtZljVrwZyWEzxN
+        09UJm3lJzfMsk1hooslrOBjjs2yWkf/O8Ww2iFJaJrKJAH4JYW5sBmRXzJ/XeHHBhAASDxALaV3s7454
+        R6ccyB6l1AbgT+5LcdoGetjcircmrQlQ6LoOwzA8ViCE0xgpPxgnbtOUNLK4bVtUVYWiuKO4F+j7/vqQ
+        1LquAuIaPNd1LQ1UWZYCIvBc4XMcoBCiTOfUpmnE/vE+p/13QcieSrDpOvl2+wCdX/JDFCyV0AAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="btnView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 180</value>
+  </data>
+  <data name="btnView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 33</value>
+  </data>
+  <data name="btnView.Text" xml:space="preserve">
+    <value>Bank Preview</value>
+  </data>
+  <data name="StudentsView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="qidDateDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="accountnameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="descriptionDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="FromValue.HeaderText" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="ToValue.HeaderText" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="iDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Auto code</value>
+  </data>
+  <data name="qidcodeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="qidTypeDescDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="costName.HeaderText" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="StudentsView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>901, 327</value>
+  </data>
+  <data name="Searchbtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhFAAUAIcAAAAAAP////eUHaCgoM/P0IiIiYCAgSMkJxcYGh0eINzd30FESA4PEDY5PNze4Nja
+        3NTW2P3+/+Lj5M3Oz63AzrLBzbTDzsvb57LAy+j1/77GzLrCyNHW2szQ08bKzbTb9bPV7KvJ3bHP46zH
+        2a3E1NLt/7vT47LH1czk9K7C0LbK2Njv/67Bzq3AzbHD0K/BzcPW47DBzdzx/7LDz8DS3rbG0bLCzbjF
+        zrbDzLzJ0isuMOb1/8PN1L/J0Oz3/7zFy/D5//P6/8PJzcHHy/X7/8rNz8jLzfr9/6ne/6rf/6nd/azf
+        /6jb+q3g/6vd/K7f/6/g/7Dh/7Lh/7Pi/6/d+qrW8rTi/7bj/7jj/7nk/7fi/Lrl/6vS67zl/73m/77m
+        /6vO5cDn/8Ln/8Po/7/i+cXp/8Ll/Mbp/8jq/8Lj+L7e8srr/8zr/73a7c3s/8ro+8bj9c/s/7LM3NDt
+        /83q/Mzn+NPu/9bv/8jf7tLp+Nnw/7rO29rx/93y/97y/8fZ5ODz/9bo89Dh7M3e6eL0/9Pk79rq9Oj2
+        /+Ty++Lw+bnEy+r3/+34/8rS17fk/8fq/7TS5NHu/9Tv/9fw/+H0/9/y/eT1/+Lz/ef2/7bCyeb0/O/5
+        //H6/8DFyPf8/+v4//n9/+Xm5tbX1/i7Sfm/V/rGbPa3Tu+hLe+jL/CkMPW4WfzNhQ8JAeyaJ/CqT/jE
+        gf3Tm+J9BqNbBNR2BuJ+CMNvDOaED+uHEOiGEu+LFBgOAlAvB+SFFd2BFINNDPKPGOiIF+WHF/ORG/WZ
+        LPidMO2ZNSsZBHVEC/ahQO2fRfqpTfKkSu6hSfy4bv/XqwsGAfi5dv3GjvrHkv7Uq//XsP/Rpv7+/v39
+        /fr6+vn5+ff39/X19fLy8vDw8O7u7uzs7Ovr6+np6ebm5uTk5OLi4uDg4N/f393d3dra2tnZ2dTU1NLS
+        0tHR0czMzMvLy8jIyMXFxcPDw8HBwb6+vry8vLm5uba2trOzs7Gxsa6urqmpqaampm5ubgUFBQMDA///
+        /yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAD/ACwAAAAAFAAUAAAIjwD/CRxIsKDBgwgT/otHbtwAhQXX
+        2ZEBKEM5iALVzQkSRAahQxcVhsIS5tGcFX0sIYJ4bsoWMWtKrAC042FCdU2udBkTkw+gfQrHJYly5csZ
+        N5hkYOyxREqWMG7ukMP4r1ETK1vCdGvAiyo2bdgm/NvFKxXVgsScjTpLMC0qtgOJwXoL91/aVnXt5t3L
+        12BAADs=
+</value>
+  </data>
+  <data name="Searchbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 180</value>
+  </data>
+  <data name="Searchbtn.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Account Sheet</value>
+  </data>
+</root>

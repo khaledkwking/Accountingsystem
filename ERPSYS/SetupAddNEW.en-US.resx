@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="supCodeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="supCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 15</value>
+  </data>
+  <data name="supCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 16</value>
+  </data>
+  <data name="supCodeLabel.Text" xml:space="preserve">
+    <value>Supplier Code</value>
+  </data>
+  <data name="custCodeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="custCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 49</value>
+  </data>
+  <data name="custCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 16</value>
+  </data>
+  <data name="custCodeLabel.Text" xml:space="preserve">
+    <value>Customer Code</value>
+  </data>
+  <data name="invSaleCodeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="invSaleCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 83</value>
+  </data>
+  <data name="invSaleCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 16</value>
+  </data>
+  <data name="invSaleCodeLabel.Text" xml:space="preserve">
+    <value>Inv Sales Code</value>
+  </data>
+  <data name="invpurchasesCodeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="invpurchasesCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 117</value>
+  </data>
+  <data name="invpurchasesCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 16</value>
+  </data>
+  <data name="invpurchasesCodeLabel.Text" xml:space="preserve">
+    <value>Inv Purchase Code</value>
+  </data>
+  <data name="qidLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="qidLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 151</value>
+  </data>
+  <data name="qidLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="qidLabel.Text" xml:space="preserve">
+    <value>Voucher Code</value>
+  </data>
+  <data name="qidInLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="qidInLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 185</value>
+  </data>
+  <data name="qidInLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="qidInLabel.Text" xml:space="preserve">
+    <value>In voucher Code</value>
+  </data>
+  <data name="qidOutLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="qidOutLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 219</value>
+  </data>
+  <data name="qidOutLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 16</value>
+  </data>
+  <data name="qidOutLabel.Text" xml:space="preserve">
+    <value>Out Voucher Code</value>
+  </data>
+  <data name="empCodeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="empCodeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 253</value>
+  </data>
+  <data name="empCodeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 16</value>
+  </data>
+  <data name="empCodeLabel.Text" xml:space="preserve">
+    <value>Employer Code</value>
+  </data>
+  <data name="label29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 120</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Inv Sales Serial</value>
+  </data>
+  <data name="label30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 86</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 16</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Out Voucher Serial</value>
+  </data>
+  <data name="label31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 52</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>In Voucher Serial</value>
+  </data>
+  <data name="label32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 18</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 16</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Voucher Serial</value>
+  </data>
+  <data name="label33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 154</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 16</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Inv Pruchase Serial</value>
+  </data>
+  <data name="comboBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 272</value>
+  </data>
+  <data name="comboBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 236</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 272</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 15</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Discount Account</value>
+  </data>
+  <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 236</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 15</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Osal Account</value>
+  </data>
+  <data name="comboBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 204</value>
+  </data>
+  <data name="comboBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 172</value>
+  </data>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 204</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 15</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Purchases Account</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 172</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 15</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Sales Account</value>
+  </data>
+  <data name="comboBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 204</value>
+  </data>
+  <data name="comboBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 140</value>
+  </data>
+  <data name="comboBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 110</value>
+  </data>
+  <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 47</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 208</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 15</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Admeasure Reorder Purchase Acc.</value>
+  </data>
+  <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 140</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 15</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Admeasure Reorder Sales Acc.</value>
+  </data>
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 110</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 15</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Admeasure  Purchase Acc.</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 47</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 15</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Admeasure Sales Acc.</value>
+  </data>
+  <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 272</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 272</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 15</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Payment Account</value>
+  </data>
+  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 236</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 172</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 240</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 15</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Cash Reoder Pruchase  Acc.</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 172</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 15</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Cash Reoder Sales  Acc.</value>
+  </data>
+  <data name="CmbDiscount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 140</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 140</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 15</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Discount Account</value>
+  </data>
+  <data name="CmbSuppliers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 110</value>
+  </data>
+  <data name="CmbCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 79</value>
+  </data>
+  <data name="cmbBank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 47</value>
+  </data>
+  <data name="Cmbbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 15</value>
+  </data>
+  <data name="cmbPruchres.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 79</value>
+  </data>
+  <data name="CmbSales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 15</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 110</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 15</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Supplier Account</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 79</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 15</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Customer Account</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Bank Account</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Box Account</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 79</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Cash Pruchase  Acc.</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 15</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 15</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Cash Sales  Acc.</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 6</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>855, 325</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="CmdCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0WCwAAAAAAADYAAAAoAAAAIAAAAB0AAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons////2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Onsoa6zZYaThJKXp6enubm5wsLCwsLCubm5ubm5ubm5
+        ubm5ubm5ubm5ubm5ubm5wsLCubm5wsLCycnJ1dXV1dXV1dXV1dXV2Ons2Ons2Ons2Ons////2Ons2Ons
+        2OnsxdbcDZnNAKHZAJ7SBou7I3STR259a3qAio2Op6enp6enp6enp6enqampqampqampubm5qampubm5
+        qampubm5ycnJycnJ4ODg2Ons2Ons2Ons2Ons////2Ons2Ons2OnsuM/XBpXKAaHWBM3+BM3+AbrvALDn
+        AJ7SBou7HHeYR259Y3V8hYmLm5ycqampqampp6enp6enqampqampubm5ubm5ycnJ4ODg2Ons2Ons2Ons
+        2Ons////2Ons2Ons2OnssM7ZCpvRBJnNAsT2BNL/BNL/BNL/BNL/BM3+AsT2AbrvAJ7SBou7E36mLHGM
+        TXF/eYOGm5ycqampubm5ubm5wsLC1dXV2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Onsqc7bE6TZG6bZ
+        C7PjG9n/EdT/BNL/BNL/BNL/BNL/BNL/BNL/BM3+AsT2AbrvALDnBou7EIOsLHeSg6m31dXV2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2OnsosvaFKndMLzpFKndWeP/VOL/Qd7/MNn/Gdb/BNL/BNL/
+        BNL/BNL/BNL/BNL/BNL/BM3+Asf5ALDnGJnH2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons
+        2Onsl8jbG63gTNH0CpvRZeH0bun/ZeH0WeP/WeP/Qd7/Gdb/BNL/BNL/BNL/EdT/BNL/BNL/BNL/AsT2
+        BJnNj8HV2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2OnsjMXbG63gZeH0FKndXtHuivL9euz9
+        euz9bun/bun/WeP/Qd7/Gdb/BNL/BNL/BNL/BNL/BNL/C8X4EbblO6LG2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons////2Ons2Ons2OnshMLZIrLjbun/MLzpRr3iqvX/mvH/kO//iu7/iu7/euz9euz9bun/Qd7/EdT/
+        BNL/BNL/BNL/CsH1JsnxBJnNqc7b2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Onser/aKbfleuz9
+        UdXzHqbVsfb9tPj/o/X/o/X/mvH/lPD/kO//iu7/euz9euz9Qd7/Gdb/BNL/CsH1LND4CKrZWKzK2Ons
+        2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2OnscrvZMLzpffL9bun/EaHUkd3w0/3+yv3/wfz/u/n/qvX/
+        qvX/o/X/mvH/lPD/lPD/euz9HXkghbyPQtf6JsnxEJTEu9Pc2Ons2Ons2Ons2Ons2Ons////2Ons2Ons
+        2OnsZLnaOsXpffL9ffL9OsXpCpvRetDpoOPyte/4xPf9yv3/yv3/u/n/tPj/qvX/qvX/HXwwRc5oE4Md
+        QJ+Miu7/IqjTd7fQ2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2OnsVrTYQsrthvj/gvT+gvT+Sc3sHrDc
+        FKndEaHUIqjTObHabcrm0/3+0/3+yv3/CnxDN71XWvONWvONE4YpZMXBbdLqIpfE2Ons2Ons2Ons2Ons
+        2Ons////2Ons2Ons2OnsRrDZUdXzi/v/gvT+hvj/i/v/gvT+gvT+ffL9a+X3VdjwEaHUZcLh5f//OZ9g
+        HZYwT+eCWvONWvONUuJ8E3gZouXbJaLNksLV2Ons2Ons2Ons2Ons////2Ons2Ons2OnsOq3ZW9ryk/7/
+        i/v/i/v/i/v/i/v/i/v/i/v/i/v/k/7/b+j2CpvRg72cFYkjQtt1TOR/T+eCWvONWvONUuJ8KoMvb8bW
+        TKfL2Ons2Ons2Ons2Ons////2Ons2Ons2OnsK6rZZeH0k/7/k/7/k/7/i/v/k/7/i/v/i/v/i/v/i/v/
+        k/7/ffL9HYpLE4A6B3EcLrdSTOR/T+eCFYkjEno2Eno2PKOjLZ/J2Ons2Ons2Ons2Ons////2Ons2Ons
+        2OnsIqjTbun/m///k/7/m///k/7/k/7/k/7/m///m///m///m///m///m///m///m///IKA6Qtt1TOR/
+        Dn4Yu9Pcj8HVa7PQosva2Ons2Ons2Ons2Ons////2Ons2Ons2OnsRrDZOsXpo///m///m///m///m///
+        m///gvT+Sc3sS9DuVdjwZeH0cun3ffL9S7eOIqhCP9hyOs1nRIpE2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons////2Ons2Ons2Onsr9LfCqLacun3o///o///qf//qf//ivL9G7PkQ5e7ervUXLXYP6zVIqjTGJnH
+        Am0bLb9ZNc5oDHwWqcKp2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2OnsZLnaFKnd
+        Lr3lOsXpSc3sW9ryLr3lPZS31t7h4ODg4ODg4ODglrmaKH0qGZ4yLcNbEIYgf6qF2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Ons2OnsosvajMXber/aYbfaQK7aT7TbycnJY5xjAGYA
+        HHUcA3YHCoYTFqUrF50vE3kXjLOM2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons4ODgt8q3Y5xjOIU4OIU4OIU4fqt+09nT2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons////2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons////
+</value>
+  </data>
+  <data name="CmdCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 399</value>
+  </data>
+  <data name="CmdCancel.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CmdSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAVFJREFUOE+lUy2T
+        wjAQLa5/A4msxCIrK3MSiURiK5GVQUZWBhcbGRlcLbKydY/dpcyVgRx3c5l5k2a3efvxNotsWmXVYrdd
+        Zstlno3j+DC/7HmeZ5fLmJ1Ol+x8/lrID/uDQ1lZhHjFMAB9PyTBfuc6KOWhKOgTQYw9XewRY0yC/T8T
+        UIiuuybxmUAy6IjgFWz/JcE/SvjcxCHVgxYhsAqkAIH3FN42sSIZlbKoaw9jIto2whBkp7NgOmsdsd0G
+        VHMZ2ZCCaE6Y+3e78DwHD6dSDsfGoyHUtcXx2FJ0B++vlE2H9doI7qSzQfom4EsWZalRFA20NjJUvJhk
+        tWrEzoGSBHXdUhQtcC6I9n8iOBw0NhuN/d7KRLK0vKyNEr0o9PsMpDGihJa677ICfJ8ltTZMJTDBrAf8
+        orgelqUsDTWwhQ+eECbwt6d+WMmMUVVGXuINIauuRD1gs6oAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="CmdSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 399</value>
+  </data>
+  <data name="CmdSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 298</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 269</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 240</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 296</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 269</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 16</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>English Fax</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 240</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 208</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="compActivtyTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 208</value>
+  </data>
+  <data name="BtnPic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAeZJREFUOE+Vk11I
+        UwEYhr2IGYERtTZnbjqXsyw7ZI2Uwh37BbUa9jNUKDLoIrCNWjYn1Aid05O6NpBZhsxwamlRSQlFRZBR
+        9ncVSUEXUTcFxqSoi52nEURX7czv+nue9+OFLy1tDhON9NAb9DEH5N/qo9tBfn2+wfTDAM0NewgFpNRF
+        1wf8yLH7fHs/ynj/KU47qim3lqYmGBuJ8Ol1P/L3J7yc6ELy1GHbYaFolTk1wVBfK/HYA2Y+3CQacnDY
+        Xo5FMCFaN6YmeDMZJv5jkud3Ojnj3ItYUog+S024J6AsmBiVkGfv8vXtMEOJ9H2VJZjzdNTV7FeG3e4G
+        3k1dIjY9yNR4G+1NtZQW57NWWK0M+1q9bKk+QFmlnfr6Wi5KR3EdqcKwTE1fbyi54FY0wL12gZGWrdjs
+        NRRtEDGaC9lmXUdBvlE5/UW3AFdNcDmP2U4jnqoVLNXpWazRYVlfnFxw7dxuGE7AF3KRzxv46c3i8cEl
+        VBQsRK/PTt78Fb/tDyyHc4m3ZTPTmMnTQ2p8YgaiQUVzk+v/6RH3Ll4d1/LFo+OjU8uzBDiwcxEOywJs
+        5nSWazOSn97i9bBpjYmynPlsN6qoMKWzOUeFoJnHSoOGDv9Z5fL+/l2X5KPR5eTkiWMEuzsUwd8SowYZ
+        MEPFVgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BtnPic.Text" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 34</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Company Logo</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 176</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>English Tel</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 140</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 16</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Tel</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 109</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>English Address</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 78</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 46</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 16</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 10</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 16</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="companyNameEngTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 46</value>
+  </data>
+  <data name="companyNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 10</value>
+  </data>
+  <data name="telPhoneEngTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 177</value>
+  </data>
+  <data name="telPhoneTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 144</value>
+  </data>
+  <data name="addressEngTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 113</value>
+  </data>
+  <data name="addressTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 79</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Company Data</value>
+  </data>
+  <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 151</value>
+  </data>
+  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 117</value>
+  </data>
+  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 83</value>
+  </data>
+  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 49</value>
+  </data>
+  <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 15</value>
+  </data>
+  <data name="empCodeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 250</value>
+  </data>
+  <data name="qidOutTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 217</value>
+  </data>
+  <data name="qidInTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 184</value>
+  </data>
+  <data name="qidTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 151</value>
+  </data>
+  <data name="invpurchasesCodeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 118</value>
+  </data>
+  <data name="invSaleCodeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 85</value>
+  </data>
+  <data name="custCodeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 52</value>
+  </data>
+  <data name="supCodeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 19</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>System Codes</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InvtabControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="InvtabControl.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+</root>

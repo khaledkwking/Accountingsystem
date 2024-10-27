@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SaveCmd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="SaveCmd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAVFJREFUOE+lUy2T
+        wjAQLa5/A4msxCIrK3MSiURiK5GVQUZWBhcbGRlcLbKydY/dpcyVgRx3c5l5k2a3efvxNotsWmXVYrdd
+        Zstlno3j+DC/7HmeZ5fLmJ1Ol+x8/lrID/uDQ1lZhHjFMAB9PyTBfuc6KOWhKOgTQYw9XewRY0yC/T8T
+        UIiuuybxmUAy6IjgFWz/JcE/SvjcxCHVgxYhsAqkAIH3FN42sSIZlbKoaw9jIto2whBkp7NgOmsdsd0G
+        VHMZ2ZCCaE6Y+3e78DwHD6dSDsfGoyHUtcXx2FJ0B++vlE2H9doI7qSzQfom4EsWZalRFA20NjJUvJhk
+        tWrEzoGSBHXdUhQtcC6I9n8iOBw0NhuN/d7KRLK0vKyNEr0o9PsMpDGihJa677ICfJ8ltTZMJTDBrAf8
+        orgelqUsDTWwhQ+eECbwt6d+WMmMUVVGXuINIauuRD1gs6oAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="SaveCmd.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="SaveCmd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 371</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SaveCmd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="SaveCmd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SaveCmd.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="SaveCmd.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="SaveCmd.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;SaveCmd.Name" xml:space="preserve">
+    <value>SaveCmd</value>
+  </data>
+  <data name="&gt;&gt;SaveCmd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveCmd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SaveCmd.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DelCmd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="DelCmd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAH1JREFUOE+9kUsK
+        gDAMBXMl738Xty5duqzMIhBrfipYCEVMpvNaka/rWGRQrzkK+BXiHqYmI4lTxmV4D+6Ef62YNAHZjEl5
+        8vwCq4FERuWrYUABKJs9AwWwY9SG0KzF0PwdglDNmi30BrGDmW4IaWuaSBeLVM8J/bTfvTeFnH/CioDB
+        2/epAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="DelCmd.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="DelCmd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 371</value>
+  </data>
+  <data name="DelCmd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="DelCmd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 33</value>
+  </data>
+  <data name="DelCmd.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="DelCmd.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DelCmd.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;DelCmd.Name" xml:space="preserve">
+    <value>DelCmd</value>
+  </data>
+  <data name="&gt;&gt;DelCmd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DelCmd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DelCmd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CmdCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="CmdCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAT9JREFUOE+1kiFz
+        g0AQhYlDIrGRkamrrayMjEVSh8QikchYJLJ/AYlEYqk7efJ13x4HXJrppKLM7Bzc7Pvu7TsOkTxDk4Lr
+        /nn5+Drc7z38ptjOFYBGqpaqYMYM3H8E/gFhkwptuSsCpWyxgjxwuJ1CsAMsAhU5kBeYIReHDcxU6Qrb
+        Yupet5G9Aztvtrk391fERYS4jJHUrvgOU2Bsd5kpYDnRDIWcVGrB8DRxZHItAtJWQFUcBk6AGa9qWYOU
+        uWEI4LrV3F9WSBCkn1Vvwgd5JyZIAXL6qUtDF27ebDudkADgQiXgWCd478843pIwRCbs7LOZThY3s9zA
+        lGH6PGug5XhBPr4phN86iguxU7GVsNjsa737JgEiqKie3e2sOWxN7s9j428ViElhMxcvevZ9dbAHePEz
+        6/8A/jKOd/ANVKMcMpunNSoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="CmdCancel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CmdCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 371</value>
+  </data>
+  <data name="CmdCancel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CmdCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 33</value>
+  </data>
+  <data name="CmdCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="CmdCancel.Text" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="CmdCancel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;CmdCancel.Name" xml:space="preserve">
+    <value>CmdCancel</value>
+  </data>
+  <data name="&gt;&gt;CmdCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmdCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CmdCancel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CmdAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="CmdAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAANdJREFUOE9j9Cj+
+        /58BDezYN52B4XwWI1zYcBpCDbI4SAHIAFwA3WAGkEHIhuEy4MuXL/9fvXqFqRikgRgDQJqvXr2KagDM
+        dmQalwvu37///8CBA5guQNdMsgH4vADzN8z5MBeAAhkdo4QDLBZgGkF+P3XqFNwLuGLp4uWHkKiFKYD5
+        G2QzDINswmbAlTc//6+69RkaRthCF0kMmwEgzaHbnmOPZvTEg82A+hNv/zNMukNnA2D+hjufVBfANIL8
+        rrUEGAOkGgD3N0gjDKPnC4zcB0t5eGIKAIlL6flbe9eMAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="CmdAdd.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CmdAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 371</value>
+  </data>
+  <data name="CmdAdd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CmdAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 33</value>
+  </data>
+  <data name="CmdAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="CmdAdd.Text" xml:space="preserve">
+    <value>أضافة</value>
+  </data>
+  <data name="CmdAdd.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;CmdAdd.Name" xml:space="preserve">
+    <value>CmdAdd</value>
+  </data>
+  <data name="&gt;&gt;CmdAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmdAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CmdAdd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="cDEPERPENALTYBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>312, 31</value>
+  </metadata>
+  <metadata name="personalDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>179, 31</value>
+  </metadata>
+  <data name="txDesc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="txDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 40</value>
+  </data>
+  <data name="txDesc.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txDesc.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="txDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 25</value>
+  </data>
+  <data name="txDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;txDesc.Name" xml:space="preserve">
+    <value>txDesc</value>
+  </data>
+  <data name="&gt;&gt;txDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txDesc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txDesc.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 45</value>
+  </data>
+  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 18</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>نوع الخصم</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtUnitCode.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtUnitCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="txtUnitCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 7</value>
+  </data>
+  <data name="txtUnitCode.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtUnitCode.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="txtUnitCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 25</value>
+  </data>
+  <data name="txtUnitCode.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;txtUnitCode.Name" xml:space="preserve">
+    <value>txtUnitCode</value>
+  </data>
+  <data name="&gt;&gt;txtUnitCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtUnitCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtUnitCode.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 10</value>
+  </data>
+  <data name="Label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 18</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>الكود</value>
+  </data>
+  <data name="Label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="UnitsDGView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="pENCODEDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>كود العقوبة</value>
+  </data>
+  <data name="pENCODEDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="pENDESCDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>أسم العقوبة</value>
+  </data>
+  <data name="pENDESCDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="UnitsDGView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 95</value>
+  </data>
+  <data name="UnitsDGView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="UnitsDGView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>485, 256</value>
+  </data>
+  <data name="UnitsDGView.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;UnitsDGView.Name" xml:space="preserve">
+    <value>UnitsDGView</value>
+  </data>
+  <data name="&gt;&gt;UnitsDGView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UnitsDGView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UnitsDGView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>56, 31</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>101</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>543, 417</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.TabText" xml:space="preserve">
+    <value>انواع الخصومات</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>انواع الخصومات</value>
+  </data>
+  <data name="&gt;&gt;cDEPERPENALTYBindingSource.Name" xml:space="preserve">
+    <value>cDEPERPENALTYBindingSource</value>
+  </data>
+  <data name="&gt;&gt;cDEPERPENALTYBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;personalDataSet.Name" xml:space="preserve">
+    <value>personalDataSet</value>
+  </data>
+  <data name="&gt;&gt;personalDataSet.Type" xml:space="preserve">
+    <value>ERPSYS.PersonalDataSet, PersonalDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pENCODEDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>pENCODEDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;pENCODEDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pENDESCDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>pENDESCDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;pENDESCDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Name" xml:space="preserve">
+    <value>errorProvider1</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cDE_PER_PENALTYTableAdapter.Name" xml:space="preserve">
+    <value>cDE_PER_PENALTYTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;cDE_PER_PENALTYTableAdapter.Type" xml:space="preserve">
+    <value>ERPSYS.PersonalDataSetTableAdapters.CDE_PER_PENALTYTableAdapter, PersonalDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PENALTYList</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>WeifenLuo.WinFormsUI.DockContent, WeifenLuo.WinFormsUI.Docking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="cDE_PER_PENALTYTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>519, 31</value>
+  </metadata>
+</root>

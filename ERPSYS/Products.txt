@@ -1,0 +1,45 @@
+SET IDENTITY_INSERT NEWTemp.dbo.PRODUCTS on
+
+INSERT INTO NEWTemp.dbo.PRODUCTS (   PRODUCTID, productname, EnglishName, PRODUCTCODE, ParentProductId, Root, ProductTypeID, SERIALNO, SUPPLIERID, CATEGORYID, PWeight, 
+                      PSize, PColor, PVolume, picpath, VALIDITY, PDesc, PriceRule, PriceFromDate, PriceToDate, OfferTypeID, OfferFromDate, OfferToDate, OfferProductId, 
+                      OfferUnit, UNITPRICECOST, UNITPRICESALES, BUYDATE, THRESHOLDINSTOCK, DISCONTINUED, REORDERLEVEL, STOCKNO, RECEIVERID, SHAPE, 
+                      QUANTITYPERUNIT, complexproduct, UNITSINSTOCK, ACCOUNTID, QUANTITYINUNIT, initialsmallquantity, initialprice, initiallargequantity, 
+                      serviceproduct, profit, forcurrency, minprice, shape2, SerialCode) 
+
+SELECT    PRODUCTID, productname, EnglishName, PRODUCTCODE, ParentProductId, Root, ProductTypeID, SERIALNO, SUPPLIERID, CATEGORYID, PWeight, 
+                      PSize, PColor, PVolume, picpath, VALIDITY, PDesc, PriceRule, PriceFromDate, PriceToDate, OfferTypeID, OfferFromDate, OfferToDate, OfferProductId, 
+                      OfferUnit, UNITPRICECOST, UNITPRICESALES, BUYDATE, THRESHOLDINSTOCK, DISCONTINUED, REORDERLEVEL, STOCKNO, RECEIVERID, SHAPE, 
+                      QUANTITYPERUNIT, complexproduct, UNITSINSTOCK, ACCOUNTID, QUANTITYINUNIT, initialsmallquantity, initialprice, initiallargequantity, 
+                      serviceproduct, profit, forcurrency, minprice, shape2, SerialCode
+FROM NEWERP.dbo.PRODUCTS
+
+SET IDENTITY_INSERT NEWTemp.dbo.PRODUCTS off
+~
+
+SET IDENTITY_INSERT NEWTemp.dbo.Product_Units_Prices on
+
+INSERT INTO NEWTemp.dbo.Product_Units_Prices (   UitPriceId, UintId, productid, PRODUCTBRAND, ConFactor, PriceOnly, Dim, DimDesc, MainUnit, AvgCostPrice, MaxCostPrice, MinCostPrice, SalePrice, 
+                      MinPrice, BuyPrice, CostmerPrice, PrivatePrice, Minprofit, MaxProfit, MaxSalePrice, MinSalePrice, LastSalePrice, MaxBuyPrice, MinBuyPrice, 
+                      LastBuyPrice, LastCostPrice) 
+
+SELECT     UitPriceId, UintId, productid, PRODUCTBRAND, ConFactor, PriceOnly, Dim, DimDesc, MainUnit, AvgCostPrice, MaxCostPrice, MinCostPrice, SalePrice, 
+                      MinPrice, BuyPrice, CostmerPrice, PrivatePrice, Minprofit, MaxProfit, MaxSalePrice, MinSalePrice, LastSalePrice, MaxBuyPrice, MinBuyPrice, 
+                      LastBuyPrice, LastCostPrice
+FROM NEWERP.dbo.Product_Units_Prices
+
+SET IDENTITY_INSERT NEWTemp.dbo.Product_Units_Prices off
+
+~
+
+SET IDENTITY_INSERT NEWTemp.dbo.STOCK on
+
+INSERT INTO NEWTemp.dbo.STOCK (     StockId, STOREID, PRODUCTID, UnitID, QUANTITY, MovmentQty, MaxQty, visitationQty, Related, OrderQTY, QtyInStore, QtyINRoad, QtynotAmount, 
+                      QtyNotProchuse, QtyNotCost, QtyNotSale) 
+
+SELECT      StockId, STOREID, PRODUCTID, UnitID, QUANTITY, MovmentQty, MaxQty, visitationQty, Related, OrderQTY, QtyInStore, QtyINRoad, QtynotAmount, 
+                      QtyNotProchuse, QtyNotCost, QtyNotSale
+FROM NEWERP.dbo.STOCK
+
+SET IDENTITY_INSERT NEWTemp.dbo.STOCK off
+
+

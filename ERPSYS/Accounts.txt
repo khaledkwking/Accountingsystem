@@ -1,0 +1,11 @@
+SET IDENTITY_INSERT NEWTemp.dbo.accounting on
+
+INSERT INTO NEWTemp.dbo.accounting (  accountid,AccountCode, accountname, AccountSName, AccountparentId, root, Totalfromvalue, Totaltovalue, notes, startbalancefrom, startdate, 
+                      startbalanceto, balance, accountType, ClosedTo, MainNode, ProcessFlag, display_Flag, AccLevel, MainParentAccId, LastSerialNo) 
+
+SELECT      accountid,AccountCode, accountname, AccountSName, AccountparentId, root, Totalfromvalue, Totaltovalue, notes, startbalancefrom, startdate, 
+                      startbalanceto, balance, accountType, ClosedTo, MainNode, ProcessFlag, display_Flag, AccLevel, MainParentAccId, LastSerialNo
+FROM NEWERP.dbo.accounting
+
+SET IDENTITY_INSERT NEWTemp.dbo.accounting off
+

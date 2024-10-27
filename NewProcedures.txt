@@ -1,0 +1,31 @@
+
+
+
+
+CREATE PROCEDURE [dbo].[usp_AccountingViewSelectNotStartNoMovingByParm]
+(
+	@ACCOUNTID bigint,
+	@BrachId bigint,
+	@FromDate smalldatetime,
+	@ToDate smalldatetime,
+	@ProductId bigint,
+	@CostID bigint
+)
+AS
+	SET NOCOUNT ON;
+SELECT   ID, qidid, FromValue, ToValue, ACCOUNTID, type, Description, EnterDate, Detcode, QidType, TotalPrice, ActionType, accountname, BrachId, EmpId, 
+                      InvId, Totalfromvalue, Totaltovalue, qidcode, qidDate,AccountparentId, AccountCode,QidTypeDesc,(isnull(FromValue,0 )-isnull(ToValue,0 )) as Total, CostId,YearqidDate, QidMonth
+
+
+FROM         AccountingView
+WHERE     (ACCOUNTID = @ACCOUNTID or @ACCOUNTID  IS NULL ) 
+AND (BrachId = @BrachId or @BrachId is null )
+AND (qidDate >= @FromDate or @FromDate is null ) 
+AND (qidDate <= @ToDate or @ToDate is null)
+and  ( invId in (select InvId from dbo.Inv_Products where ProductId=@ProductId)  or @ProductId is null ) 
+and   (CostID = @CostID or @CostID  IS NULL ) 
+--and (repeated <> 1 or repeated is null)
+order by qidDate
+
+
+GO

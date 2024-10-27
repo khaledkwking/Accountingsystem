@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 592</value>
+  </data>
+  <data name="checkDateDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Stock Date</value>
+  </data>
+  <data name="pRODUCTIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="unitIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="storeQtyDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Quantity in Store</value>
+  </data>
+  <data name="StockDGView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1021, 251</value>
+  </data>
+  <data name="PreviewBtn4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABeElEQVQ4T5WSv0vDQBzFD/wHOkn/BYeO
+        BSdBUQQHwV8gKqizFBV/YsSpOBQdhCAiwUGItmDG2wyoyI1ZhBu7ZirRQaKIPO979mqTkIJfeASOe5/3
+        7i7MDBcheBAlRWtm3Zewqj7a27NDG+MYiHIUBCEsW0AUmVbb9je+Suk1gQy18btWAdYKkAOFJIQa5I0q
+        gC3LQ+tqQhtJd/19uGRdTQxACFUzJTI3Xr5wfXaB93o5a6bhoqkB3UN3YswnTx9Yvm1hqMIxvVgD5yIF
+        8JOAbvPp8yeW6q8obz5qsy8kPC8DkNqYrk3mhZsIg7sPnWQC2HbqSQ3APOX+xiGO7990sjHrZBlpVas8
+        CfD4L4DM1t4szreHsXNkJ2u3zTmAQD8X1SdA42Ac63PFTm1zNJKj/pkMwFWXEirC5Mw8RkbHsLoypVN5
+        M9aJZDKycwHqZyyVShpCZj/HTN8MwHEF1N5E1Tz1BqhzULKp7sq4k2zkqLUMgBb+K8YY+wFpaYfOP2/l
+        8gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="PreviewBtn4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>790, 65</value>
+  </data>
+  <data name="PreviewBtn4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 33</value>
+  </data>
+  <data name="PreviewBtn4.Text" xml:space="preserve">
+    <value>Apply Inventory</value>
+  </data>
+  <data name="checkDescDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Stock Name</value>
+  </data>
+  <data name="sTOREIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="checkDayDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Stock Date</value>
+  </data>
+  <data name="StoresDGView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 113</value>
+  </data>
+  <data name="StoresDGView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1018, 136</value>
+  </data>
+  <data name="txtDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 41</value>
+  </data>
+  <data name="dtFromDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 41</value>
+  </data>
+  <data name="CmbStores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 73</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 18</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Stock Name</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 46</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 18</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 18</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="SaveCmd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO0lEQVQ4T5WTIZPDIBCF83cqI2srIyOx
+        lZWVsZGVkVgkEolFIpGxkZGR7/Zt2pneXLjeMfMNYWHfbnaheY2u9wgho5SCnHMV7nuf0XUOT9emuQ8R
+        XR+Qy4JtA9Z1q8L9GGcYk2Ak6DeBUlY5tGqUGtz/XUBCzPNS5bOAZjDL4Z/Q/keB4/TJR4HPRdxqAl7a
+        xC7IQYFzjUOBXjIwJmAcE5xjrwucoLOslefa2oLrNYvPmwANNTSa8G673cR+JGBMxGNKmIRxDHg8vESP
+        SGmR6DPOZ6fsoocCdApyVS3adpJ0nVafgyKn06R2BqoKjKOXKFaJMUv11/8JDIPF5WJxvwe5QPv74Aih
+        qHPb2mMBLYxmYPW/97YC9Gf7+Fr3DCjwVgMOLtgWPtNp8kg5CfkJv5PUI2hmpO/5nJvmCy2yywIdp05F
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="SaveCmd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>607, 65</value>
+  </data>
+  <data name="SaveCmd.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="DelCmd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdUlEQVQ4T72OOwqAQAxE90re/y62lpaW
+        WQczECS/RfBBimwmbzM+c21DUNquQ8GvEjdHgSSS8hMsn0EIs3SZIATJYcLlz292I4kuKsEyBfrUBxdQ
+        gEKvoxqEWV4fglOzcCqxi2HoJpx3lomb6y6T1bzLIxkyAX/CioAsFN+pAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="DelCmd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>699, 65</value>
+  </data>
+  <data name="DelCmd.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CmdCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABLklEQVQ4T5WRIZODMBCFkUgktrKy8uzJ
+        k5W1yEokFolE1iKR9xeQSCQ2MjLydd+GAOFmbujOfJOE7Hu7bBLG2OY4ohdngsnO1ABaoRFq2Kk4b8Qk
+        FbpqBw0FV0ZdKa9rbMyDJgcWkyCw41M6bGHnWle4DnP/dTRo5HJrm5jhgbRMkFYpssbDPWyJqTt2sFS0
+        YymVKgWW1aQj+1RokHdiVKfxXFQ4PdRAByn/DUsDrhtmuK8mi9QHhURfIgzxIF4NpPq1z+MuKDZDsVX/
+        Y+BNaXBpMvwMN1xeWWzACXsDJrOTpRsjLzAXmH9vOtBquuM5fasJz6sBXK8CJ8NiciD83thmQAIVNca/
+        jooZW5KHif8RiRn8yCUknN0LPvaXn6yCj7OC4yr42F98shckkuQN0WAkjtKK9UIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="CmdCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>932, 65</value>
+  </data>
+  <data name="CmdCancel.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CmdAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA7ElEQVQ4T6VSuw3CUAzMKpSMwBqskJI6
+        G6RBomQFaBAdtNQ01DQIKRvQv0jm3Ts/4ZeYInDSRZE/Z+ecyoOEl3jU9HdIeMRC8C7tcSX1rk7EO2I5
+        r+UlcqOEa+QlNW6eW1meFzJvZynGHIW0jZDQaQJFp8i9I7DXHERukd1HhNMRZLP067FAjJUiugUNytPZ
+        LH3jCDSaO2gteqKxeFjDLK3AkDRWBXKxRwh4cYgUAiicwkIA69j1MjEpFw9ZfMIkE9MljIm8BM6I0/xw
+        RuDvHwngFhBBwcRfOYObUMgaS8PYOJrsgcaOqWmDqnoDopyF+4N82kwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="CmdAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 65</value>
+  </data>
+  <data name="CmdAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 33</value>
+  </data>
+  <data name="CmdAdd.Text" xml:space="preserve">
+    <value>Add New Inventory</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 1</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1032, 273</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.TabText" xml:space="preserve">
+    <value>Start Products Qunatities</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Start Products Qunatities</value>
+  </data>
+  <data name="txtRoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 20</value>
+  </data>
+  <data name="txtRoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 22</value>
+  </data>
+  <data name="txtRoot.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>

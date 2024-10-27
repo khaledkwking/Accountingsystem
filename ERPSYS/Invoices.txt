@@ -1,0 +1,56 @@
+SET IDENTITY_INSERT NEWTemp.dbo.invoices on
+
+INSERT INTO NEWTemp.dbo.invoices (   InvId, InvCode, RecoderCode, InvDate, Cust_Sup_Accid, InvAccid, PaymentType, PaymentAccid, BranchId, InvType, EmpId, PaymentValue, 
+                      PaymentDate, Notes, invTotal, Discount, InvTotalNet, InvPayment, InvRemain, ReferID, PaymentCost, ChequeNo, ChequeFlag, TotalAddCost, 
+                      TotalReoder, TotalReoderNet, CostId, SUP_CUST_ID, PayFinish, CollectValue, KeyNetValue, VisaValue, MasterValue, ChequeValue, OtherValue, 
+                      CustId) 
+
+SELECT      InvId, InvCode, RecoderCode, InvDate, Cust_Sup_Accid, InvAccid, PaymentType, PaymentAccid, BranchId, InvType, EmpId, PaymentValue, 
+                      PaymentDate, Notes, invTotal, Discount, InvTotalNet, InvPayment, InvRemain, ReferID, PaymentCost, ChequeNo, ChequeFlag, TotalAddCost, 
+                      TotalReoder, TotalReoderNet, CostId, SUP_CUST_ID, PayFinish, CollectValue, KeyNetValue, VisaValue, MasterValue, ChequeValue, OtherValue, 
+                      CustId
+FROM NEWERP.dbo.invoices
+
+SET IDENTITY_INSERT NEWTemp.dbo.invoices off
+~
+
+ALTER TABLE NEWTemp.dbo.Inv_Products  DISABLE TRIGGER ALL 
+
+SET IDENTITY_INSERT NEWTemp.dbo.Inv_Products on
+
+INSERT INTO NEWTemp.dbo.Inv_Products (    Inv_Product_Id, InvId, ProductId, UnitId, Qty, ReorderQty, Price, StoreId, Discount, VaildDate, TotalPrice, ReoderFlag, TotReOderPrice, 
+                      PRODUCTBRAND) 
+
+SELECT       Inv_Product_Id, InvId, ProductId, UnitId, Qty, ReorderQty, Price, StoreId, Discount, VaildDate, TotalPrice, ReoderFlag, TotReOderPrice, 
+                      PRODUCTBRAND
+FROM NEWERP.dbo.Inv_Products
+
+SET IDENTITY_INSERT NEWTemp.dbo.Inv_Products off
+
+ALTER TABLE NEWTemp.dbo.Inv_Products ENABLE TRIGGER ALL 
+~
+
+SET IDENTITY_INSERT NEWTemp.dbo.qids on
+
+INSERT INTO NEWTemp.dbo.qids (qidid, qidcode, qidDate, description, edit, recitetype, underupdate, name, BrachId, EmpId, Notes, Active, repeated, BankAccId, ChequeNo, InvId, 
+                      ReorderInvId, PaymentType )
+
+SELECT    qidid, qidcode, qidDate, description, edit, recitetype, underupdate, name, BrachId, EmpId, Notes, Active, repeated, BankAccId, ChequeNo, InvId, 
+                      ReorderInvId, PaymentType
+FROM NEWERP.dbo.qids where recitetype in (3,4,5,8,9,10,11)
+
+SET IDENTITY_INSERT NEWTemp.dbo.qids off
+
+~
+
+ALTER TABLE NEWTemp.dbo.qidsDetails  DISABLE TRIGGER ALL 
+SET IDENTITY_INSERT NEWTemp.dbo.qidsDetails on
+
+INSERT INTO NEWTemp.dbo.qidsDetails (  ID, qidid, FromValue, ToValue, ACCOUNTID, type, Description, EnterDate, Detcode, QidType, TotalPrice, ActionType, CostId)
+
+SELECT      ID, qidid, FromValue, ToValue, ACCOUNTID, type, Description, EnterDate, Detcode, QidType, TotalPrice, ActionType, CostId
+FROM NEWERP.dbo.qidsDetails  where QidType in (3,4,5,8,9,10,11) 
+
+SET IDENTITY_INSERT NEWTemp.dbo.qidsDetails off
+
+ALTER TABLE NEWTemp.dbo.qidsDetails  ENABLE TRIGGER ALL 

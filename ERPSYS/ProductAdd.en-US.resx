@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControlProduct.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="PRODUCTBRAND.HeaderText" xml:space="preserve">
+    <value>BarCode</value>
+  </data>
+  <data name="UintID.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="MainUnit.HeaderText" xml:space="preserve">
+    <value>Main Unit</value>
+  </data>
+  <data name="ConFactor.HeaderText" xml:space="preserve">
+    <value>Tug</value>
+  </data>
+  <data name="THRESHOLDINSTOCK.HeaderText" xml:space="preserve">
+    <value>Quantity Limit</value>
+  </data>
+  <data name="VALIDITY.HeaderText" xml:space="preserve">
+    <value>Expired Date</value>
+  </data>
+  <data name="dimDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="priceOnlyDataGridViewCheckBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Pricing only</value>
+  </data>
+  <data name="dimDescDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value> Dimension Desc</value>
+  </data>
+  <data name="lastCostPriceDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Last Sale Price</value>
+  </data>
+  <data name="salePriceDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Sale Price</value>
+  </data>
+  <data name="minPriceDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Min Sale Price</value>
+  </data>
+  <data name="buyPriceDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Pruchase Price</value>
+  </data>
+  <data name="costmerPriceDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Cost Price</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1087, 555</value>
+  </data>
+  <data name="CmdPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhFgAWAIUAACZKjGuMwsLC1bS0tPT3/s/b8f///wBmzPv8//n7/+ju+312do+Pj9vk9vX4/+Do
+        +L3N6evw/Bj/AOsNDR+LP83a8Ky/4O3y/XmXyYKeza3A4ai83xa3AMnW7qK33MLQ63WTxrnK5xbIG7/O
+        6dnj9bLE45au1oahz9bg9Nzl9q2srJGq1HiWyP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAtACwAAAAAFgAW
+        AAAIsABbCBxIsKDBgwgTKlzIsKFDhyoGSJw4cSEDAwYAaNRogMEAhRcJiBzZ8WPCBQYKbNRYYIFJhAMW
+        NChAs+aCjQcOBtjJsydPjQYDEEiAIAEBBQ0qQLAgggOFAwCCOkBgAIGDCCkKjNAgQcLTqAWFEjWKVKmF
+        CRMwQA16gYADAhceoOgQYoOJEyzWhn2gIIKCByQKfCjhYUUGEAAEHFzJeKXigwIiS54s+aHly5gzIwwI
+        ADs=
+</value>
+  </data>
+  <data name="CmdPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 13</value>
+  </data>
+  <data name="CmdPrint.Text" xml:space="preserve">
+    <value>Perview</value>
+  </data>
+  <data name="CmdDel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB2klEQVQ4T62T3U+SYRjG+XM8aa1S1wez
+        uWDEx3oVmQHaiyj0mkTmBygfDTYClwFawsyKFeasTnJ9rIM6ctoqD6utcVAHnrs8qwjeX6/OE9oLttZ1
+        +DzX87uv+979aP6LMtl5zM4ZHK4J5mavs3esKskXw+jIk0xO1frMQj9iuET38Dp6IUQwEKwxjAcimHoK
+        SKktWo53qBcROkWcgQ/EilXsY5/Q6ocZlCROW8O4Y5tMLpQ5cEyicDtfP6VFsNNx4T0zT2Wid3/S6fvI
+        5K0fJJcrHDXfZPTyxYYt7sposmEeWOPG8yoP3sikn1TR977EYDDu/3hHPt8IFu9bFl5XefEZFtdkTP2r
+        uETX3wFOdS+SXamw/E5Wet/i3qpMYqnM4ZNj+wP6PAEGp7Z5tCHTG9qkqdWPM/iF4rqsDLakpHA3hrRb
+        c8w+kxm6tk1Ts5vznj6OaL34099IPqzQ3OatD8hMp5RqJaKFMofa44xc8u2a53NZWnRx4sVfynBfkYhH
+        1CFD/jCjc2V0zhVstq4aUzQ8gc7+mPHcdyyCQx3gHEghRr5yQqtTNbjdHs6FlAUz1BnmWU+eg62C+uWe
+        TGdEJcl99W1MXM2wVLzTELAja88V0tN/fKZ/k0bzG0KMD0Ns3DYtAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="CmdDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 13</value>
+  </data>
+  <data name="CmdDel.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CmdSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO0lEQVQ4T5WTIZPDIBCF83cqI2srIyOx
+        lZWVsZGVkVgkEolFIpGxkZGR7/Zt2pneXLjeMfMNYWHfbnaheY2u9wgho5SCnHMV7nuf0XUOT9emuQ8R
+        XR+Qy4JtA9Z1q8L9GGcYk2Ak6DeBUlY5tGqUGtz/XUBCzPNS5bOAZjDL4Z/Q/keB4/TJR4HPRdxqAl7a
+        xC7IQYFzjUOBXjIwJmAcE5xjrwucoLOslefa2oLrNYvPmwANNTSa8G673cR+JGBMxGNKmIRxDHg8vESP
+        SGmR6DPOZ6fsoocCdApyVS3adpJ0nVafgyKn06R2BqoKjKOXKFaJMUv11/8JDIPF5WJxvwe5QPv74Aih
+        qHPb2mMBLYxmYPW/97YC9Gf7+Fr3DCjwVgMOLtgWPtNp8kg5CfkJv5PUI2hmpO/5nJvmCy2yywIdp05F
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="CmdSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 13</value>
+  </data>
+  <data name="CmdSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="CmdCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0WCwAAAAAAADYAAAAoAAAAIAAAAB0AAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons////2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Onsoa6zZYaThJKXp6enubm5wsLCwsLCubm5ubm5ubm5
+        ubm5ubm5ubm5ubm5ubm5wsLCubm5wsLCycnJ1dXV1dXV1dXV1dXV2Ons2Ons2Ons2Ons////2Ons2Ons
+        2OnsxdbcDZnNAKHZAJ7SBou7I3STR259a3qAio2Op6enp6enp6enp6enqampqampqampubm5qampubm5
+        qampubm5ycnJycnJ4ODg2Ons2Ons2Ons2Ons////2Ons2Ons2OnsuM/XBpXKAaHWBM3+BM3+AbrvALDn
+        AJ7SBou7HHeYR259Y3V8hYmLm5ycqampqampp6enp6enqampqampubm5ubm5ycnJ4ODg2Ons2Ons2Ons
+        2Ons////2Ons2Ons2OnssM7ZCpvRBJnNAsT2BNL/BNL/BNL/BNL/BM3+AsT2AbrvAJ7SBou7E36mLHGM
+        TXF/eYOGm5ycqampubm5ubm5wsLC1dXV2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Onsqc7bE6TZG6bZ
+        C7PjG9n/EdT/BNL/BNL/BNL/BNL/BNL/BNL/BM3+AsT2AbrvALDnBou7EIOsLHeSg6m31dXV2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2OnsosvaFKndMLzpFKndWeP/VOL/Qd7/MNn/Gdb/BNL/BNL/
+        BNL/BNL/BNL/BNL/BNL/BM3+Asf5ALDnGJnH2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons
+        2Onsl8jbG63gTNH0CpvRZeH0bun/ZeH0WeP/WeP/Qd7/Gdb/BNL/BNL/BNL/EdT/BNL/BNL/BNL/AsT2
+        BJnNj8HV2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2OnsjMXbG63gZeH0FKndXtHuivL9euz9
+        euz9bun/bun/WeP/Qd7/Gdb/BNL/BNL/BNL/BNL/BNL/C8X4EbblO6LG2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons////2Ons2Ons2OnshMLZIrLjbun/MLzpRr3iqvX/mvH/kO//iu7/iu7/euz9euz9bun/Qd7/EdT/
+        BNL/BNL/BNL/CsH1JsnxBJnNqc7b2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Onser/aKbfleuz9
+        UdXzHqbVsfb9tPj/o/X/o/X/mvH/lPD/kO//iu7/euz9euz9Qd7/Gdb/BNL/CsH1LND4CKrZWKzK2Ons
+        2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2OnscrvZMLzpffL9bun/EaHUkd3w0/3+yv3/wfz/u/n/qvX/
+        qvX/o/X/mvH/lPD/lPD/euz9HXkghbyPQtf6JsnxEJTEu9Pc2Ons2Ons2Ons2Ons2Ons////2Ons2Ons
+        2OnsZLnaOsXpffL9ffL9OsXpCpvRetDpoOPyte/4xPf9yv3/yv3/u/n/tPj/qvX/qvX/HXwwRc5oE4Md
+        QJ+Miu7/IqjTd7fQ2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2OnsVrTYQsrthvj/gvT+gvT+Sc3sHrDc
+        FKndEaHUIqjTObHabcrm0/3+0/3+yv3/CnxDN71XWvONWvONE4YpZMXBbdLqIpfE2Ons2Ons2Ons2Ons
+        2Ons////2Ons2Ons2OnsRrDZUdXzi/v/gvT+hvj/i/v/gvT+gvT+ffL9a+X3VdjwEaHUZcLh5f//OZ9g
+        HZYwT+eCWvONWvONUuJ8E3gZouXbJaLNksLV2Ons2Ons2Ons2Ons////2Ons2Ons2OnsOq3ZW9ryk/7/
+        i/v/i/v/i/v/i/v/i/v/i/v/i/v/k/7/b+j2CpvRg72cFYkjQtt1TOR/T+eCWvONWvONUuJ8KoMvb8bW
+        TKfL2Ons2Ons2Ons2Ons////2Ons2Ons2OnsK6rZZeH0k/7/k/7/k/7/i/v/k/7/i/v/i/v/i/v/i/v/
+        k/7/ffL9HYpLE4A6B3EcLrdSTOR/T+eCFYkjEno2Eno2PKOjLZ/J2Ons2Ons2Ons2Ons////2Ons2Ons
+        2OnsIqjTbun/m///k/7/m///k/7/k/7/k/7/m///m///m///m///m///m///m///m///IKA6Qtt1TOR/
+        Dn4Yu9Pcj8HVa7PQosva2Ons2Ons2Ons2Ons////2Ons2Ons2OnsRrDZOsXpo///m///m///m///m///
+        m///gvT+Sc3sS9DuVdjwZeH0cun3ffL9S7eOIqhCP9hyOs1nRIpE2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons////2Ons2Ons2Onsr9LfCqLacun3o///o///qf//qf//ivL9G7PkQ5e7ervUXLXYP6zVIqjTGJnH
+        Am0bLb9ZNc5oDHwWqcKp2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2OnsZLnaFKnd
+        Lr3lOsXpSc3sW9ryLr3lPZS31t7h4ODg4ODg4ODglrmaKH0qGZ4yLcNbEIYgf6qF2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Ons2OnsosvajMXber/aYbfaQK7aT7TbycnJY5xjAGYA
+        HHUcA3YHCoYTFqUrF50vE3kXjLOM2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons4ODgt8q3Y5xjOIU4OIU4OIU4fqt+09nT2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons////2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons////2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons2Ons
+        2Ons2Ons2Ons2Ons2Ons////
+</value>
+  </data>
+  <data name="CmdCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 13</value>
+  </data>
+  <data name="CmdCancel.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CmdAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABvklEQVQ4T5XQTUiTARzH8Qf20tg0qDwL
+        ejEPEgQZROULvqCe0oPOioiKHCMbTqdNJKebTvJxA7UXl64iM/UWhT7WFkW+lA7xrQ7iURDRxDokTvzK
+        pnbb3L63/+HzO/yFaHLYrbxyP+XgjC7Lrdss9gzy1eXBdN8Q3UilrpRfz91svF9izbPD/NsFKsruRjZi
+        ayxndiafrb/1/FvYYvndb8advVQXlx490CE+YM5XgN9/BxhmZ3uI2TdddBsqyTuXGn6gvdXMz4EYdqdP
+        svvnKuvrTny+PF53Z5KWcoYb17WhBx47G5jvi4HvKpjSsCKpkQZT6O+/QE5OPHW1ptD4WWcLk+5YGFfC
+        DxWrkopPrQJSmwJtcSJO0R4au7tEJnqOw6g8OLAmKfGIAh8fCdwsUOMQm0Pj3pdP8HaegG8yGJOzMaL4
+        j/WFx2hpsoR/mrUiE/8XRXBgc0SO9wCXFymxPDSHx4Hq9JfxulLZHJbx2bGPTSXy8A87zGjQ4bLm4zBn
+        YdMn8KFZhvmajCrjvaNxoOTTSVzJTkKnPUvupUTSzydQW2OMDAeKizuFRqMmI/0idlt95PCwgb4X0aNg
+        grAHYAMH3LL6jVIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="CmdAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="CmdAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 500</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 49</value>
+  </data>
+  <data name="TreeimageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAA4
+        CgAAAk1TRnQBSQFMAgEBAwEAASwBAAEsAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wIAAeoBRAFfAYUCoQsA
+        AaELXwGhCAABTQElGAABSwH2AnoBUgEqAV8BBAKhBwABrgUZBQkB3QGFBwABTQIlGAABSwEaBnoBWAEx
+        AREBoQUAAa4GGQHdAwkB3QGFBgABTQIlASAYAAIxCKABegFfBQABrgcZAd0CCQHdAYUFAAFNBCUYAAFS
+        AVkBwwWgAXoBoAF6ASoBoQQAAa4JGQEJAd0BhQQAAU0BJQHjAiUDIAElA0YBbxEAAXkBegH2BKABCAHc
+        AZoBegHDAQQEAAGuChkB3QGFAwABTQElAeMEJQIgAx8BRgEfEQABeQF6ATEB9gHDAaABGgIJAdwBegHD
+        AUQBoQMAAbQKGQEJAYUCAAFNASUB4wUlAiAFHxEAAZoEegFSARsDGQEJAfYBmgGFAwABtAH0CRkBCQGF
+        AQABTQElAeMBRwEmBCUCIAMfAUYBHxEAAcMDoAF6AdwBCQFYAZoE/wEQAaECAAG0AvQIGQHWAYUBAAFN
+        ASUB4wYlAiAFHxEAAfYDoAHcAgkD3AEZAdwBQwGhAwABtQP0BxkB1gGFAgABTQElAU0FJQIgBR8RAAFS
+        AqAB3AEZBdwCGQGGBAABtQT0BhkB1gGFAwABTQElAeMEJQEgBB8BRgEfEgABWAGZA/QE3AH0AbQBoQQA
+        AbUB/wX0BBkB1gGFBAABTQElAeMDJQIgASUDRgFvFAABrQP/AQkBGQH0AQkBoQUAAQkC/wX0ARkB3QLW
+        AYUFAAFNBCUcAAHcA/8C9AGhBgABCQP/BfQB3AHUAYYBoQYAAU0DJR0AAhkB2wH/AaEHAAHcBf8D9AEZ
+        AYYBoQgAAU0CJR4AAq0BoQgAAdwECQG7A7UBrQsAAU0BIBcAAUIBTQE+BwABPgMAASgDAAFAAwABEAMA
+        AQEBAAEBBQABgBcAA/8BAAGBAf8BwAEBAf4BfwIAAYABHwHAAQEB/AF/AgABgAEHAcABAQH4AX8CAAGA
+        AQcBwAEBAfABfwIAAYABAwHAAQEB4AMAAYABAwHAAQEBwAMAAYABAQHAAQEBgAMAAYABAQHAAQEEAAGA
+        AQABwAEBBAABgAEBAcABAQGAAwABgAEDAcABAQHAAwABwAEDAcABAQHgAwAB8AEHAcABAQHwAX8CAAH4
+        AQ8BwAEBAfgBfwIAAfwBHwHAAQMB/AF/AgAB/gE/AcABDwH+AX8CAAs=
+</value>
+  </data>
+  <data name="ProductstreeView.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ProductstreeView.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="label28.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 19</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="txtSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 21</value>
+  </data>
+  <data name="groupBox11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Prodcut Tree</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.TabText" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="UnitsdGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>704, 125</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>716, 154</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Product Units</value>
+  </data>
+  <data name="BtnPic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB5UlEQVQ4T5WQXUhTARiGdxEzAiNqbc3c
+        dC5nWXbIGimFO/YLajXsZ6hQZNBFYBu1bE6oETqnJ3VtILMMmeHUsqKSEoqKIKPs7yqSgi6ibgqMSVEX
+        O08j6rKd+d59F8/zfryq2SQW7aE35OfvObs8uh3i1+cbTD0M0tywm3BQSl90fSCAHL/Pt/ejjPWf5JSz
+        mnJbaXqCqyNRPr3uR/7+hJfjXUjeOuzbrRSttKQnGOprJRF/wPSHm8TCTg45yrEKZkTbhvQEbyYiJH5M
+        8PxOJ6ddexBLCjFkaYj0BJUF46MS8sxdvr4dZijZvreyBEuenrqafcqwx9PAu8mLxKcGmRxro72pltLi
+        fNYIq5Rhf6uPzdX7Kat0UF9fywXpCO7DVRiXaujrDacW3IoFudcuMNKyBbujhqL1IiZLIVttaynINym3
+        v+gW4IoZLuUx02nCW7WcxXoDC7V6rOuKUwuund0Fw0n4fC7yOSM/fVk8PrCIioL5GAzZqZe/HLD/geVI
+        Lom2bKYbl/D0oAa/mIloVNPc5P4/HPXs5NUxHV+8ej66dDxLggM7FuC0zsNuyWCZLjP16y0+LxtXmynL
+        mcs2k5oKcwabctQI2jmsMGrpCJxRHu9fuiQ/jW4XJ44fJdTdoQCqVL8BEqMGGUASbPsAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="BtnPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 125</value>
+  </data>
+  <data name="BtnPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 30</value>
+  </data>
+  <data name="BtnPic.Text" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 8</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Product Picture</value>
+  </data>
+  <data name="txtPDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 33</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 10</value>
+  </data>
+  <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 19</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Describtion</value>
+  </data>
+  <data name="txtPVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 112</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 114</value>
+  </data>
+  <data name="label9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="txtPColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 84</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 85</value>
+  </data>
+  <data name="label10.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="txtPSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 56</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 56</value>
+  </data>
+  <data name="label12.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Metered</value>
+  </data>
+  <data name="txtPWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 27</value>
+  </data>
+  <data name="label13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>711, 174</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Product Specification</value>
+  </data>
+  <data name="label57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 141</value>
+  </data>
+  <data name="label57.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label57.Text" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="txtMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 139</value>
+  </data>
+  <data name="MainAccChkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 95</value>
+  </data>
+  <data name="MainAccChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="MainAccChkBox.Text" xml:space="preserve">
+    <value>Main Item</value>
+  </data>
+  <data name="txtSerialNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 95</value>
+  </data>
+  <data name="txtSerialNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 22</value>
+  </data>
+  <data name="label58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 96</value>
+  </data>
+  <data name="label58.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label58.Text" xml:space="preserve">
+    <value>Item No</value>
+  </data>
+  <data name="txtMainProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 43</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 19</value>
+  </data>
+  <data name="Label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 47</value>
+  </data>
+  <data name="txtMainProductCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 69</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 42</value>
+  </data>
+  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Main Product</value>
+  </data>
+  <data name="txtProductEngName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 69</value>
+  </data>
+  <data name="CmbProductType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>472, 13</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 68</value>
+  </data>
+  <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="txtProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 43</value>
+  </data>
+  <data name="txtProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 22</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 15</value>
+  </data>
+  <data name="Label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 19</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 45</value>
+  </data>
+  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 19</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="txtProductCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 16</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="Label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 19</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 129</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Product Basic Data</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 474</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Basic Data</value>
+  </data>
+  <data name="unitIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="offerQtyDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Free Quantity</value>
+  </data>
+  <data name="basicQtyDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Basic Quantity</value>
+  </data>
+  <data name="dGrdViewOffers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="dGrdViewOffers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>412, 136</value>
+  </data>
+  <data name="txtOfferUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 134</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 136</value>
+  </data>
+  <data name="label45.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>Product Limit</value>
+  </data>
+  <data name="txtOfferProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 106</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 108</value>
+  </data>
+  <data name="label44.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>Free Product</value>
+  </data>
+  <data name="txtOfferToDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 78</value>
+  </data>
+  <data name="txtOfferFromDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 50</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 80</value>
+  </data>
+  <data name="label41.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 19</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 52</value>
+  </data>
+  <data name="label42.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 19</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="label43.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>Prodcut Offer</value>
+  </data>
+  <data name="CmbOfferType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="groupBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 303</value>
+  </data>
+  <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>697, 170</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Free Products</value>
+  </data>
+  <data name="uintIdDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="mainUnitDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="minprofitDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Min Sale Price</value>
+  </data>
+  <data name="maxProfitDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>max sale Price</value>
+  </data>
+  <data name="buyPriceDataGridViewTextBoxColumn32.HeaderText" xml:space="preserve">
+    <value>Purchase Price</value>
+  </data>
+  <data name="MaxCostPrice.HeaderText" xml:space="preserve">
+    <value>max Pruchase Price</value>
+  </data>
+  <data name="MinCostPrice.HeaderText" xml:space="preserve">
+    <value>Min Pruchase Price</value>
+  </data>
+  <data name="lastCostPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Last Pruchase</value>
+  </data>
+  <data name="privatePriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Private Price</value>
+  </data>
+  <data name="salePriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Sum Price</value>
+  </data>
+  <data name="minPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Min Sale Price</value>
+  </data>
+  <data name="FCostPrice.HeaderText" xml:space="preserve">
+    <value>Cost Coin</value>
+  </data>
+  <data name="FPrice.HeaderText" xml:space="preserve">
+    <value>Coin Price</value>
+  </data>
+  <data name="StoreEnterDate.HeaderText" xml:space="preserve">
+    <value>Enter Date</value>
+  </data>
+  <data name="dGrdViewPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>669, 112</value>
+  </data>
+  <data name="txtPriceToDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 21</value>
+  </data>
+  <data name="txtPriceFromDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 21</value>
+  </data>
+  <data name="label40.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 22</value>
+  </data>
+  <data name="label40.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 19</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="label39.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 22</value>
+  </data>
+  <data name="label39.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="label38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="label38.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Pricing Plan</value>
+  </data>
+  <data name="CmbPriceRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 21</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 119</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>698, 178</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Pricing Rules</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 15</value>
+  </data>
+  <data name="MainPriceProductId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 44</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 47</value>
+  </data>
+  <data name="label14.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 19</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Main Product</value>
+  </data>
+  <data name="txtPriceProductEname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 75</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 76</value>
+  </data>
+  <data name="label15.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="txtPriceProductname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 44</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>378, 17</value>
+  </data>
+  <data name="label16.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 19</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 46</value>
+  </data>
+  <data name="label17.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 19</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="txtPriceProductcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 15</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="label18.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 19</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 108</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Product Basic Data</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 474</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Prices</value>
+  </data>
+  <data name="CmbUnitTypes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 28</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="label47.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="label47.Text" xml:space="preserve">
+    <value>Unit Quantity</value>
+  </data>
+  <data name="CmbStroes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 28</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 28</value>
+  </data>
+  <data name="label46.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>Stores</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Unit Quntities</value>
+  </data>
+  <data name="unitIDDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="sTOREIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Store Name</value>
+  </data>
+  <data name="qUANTITYDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="movmentQtyDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Movment Quantity</value>
+  </data>
+  <data name="maxQtyDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Max Limit</value>
+  </data>
+  <data name="visitationQtyDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Stocktaking Quantity</value>
+  </data>
+  <data name="orderQTYDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Ordering Limit</value>
+  </data>
+  <data name="relatedDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
+    <value>Realation</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Movement Quantities</value>
+  </data>
+  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="txtMainQtyProductId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 41</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 43</value>
+  </data>
+  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Main Product</value>
+  </data>
+  <data name="txtQtyProductEName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 72</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 72</value>
+  </data>
+  <data name="label11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 19</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="txtQtyProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 43</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 16</value>
+  </data>
+  <data name="label19.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 19</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 45</value>
+  </data>
+  <data name="label20.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="txtQtyProductCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 16</value>
+  </data>
+  <data name="txtQtyProductCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 22</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 19</value>
+  </data>
+  <data name="label21.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 19</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Product Basic Data</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 474</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Quantities</value>
+  </data>
+  <data name="RepProductCode.HeaderText" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="RepProductName.HeaderText" xml:space="preserve">
+    <value>Prodcut Name</value>
+  </data>
+  <data name="AvaliableQty.HeaderText" xml:space="preserve">
+    <value>Avaliable Qunatity </value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="CmbRepProductType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 18</value>
+  </data>
+  <data name="txtMainRepProductId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 48</value>
+  </data>
+  <data name="label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 50</value>
+  </data>
+  <data name="label48.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label48.Text" xml:space="preserve">
+    <value>Main Prodcut</value>
+  </data>
+  <data name="txtRepProductEName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 76</value>
+  </data>
+  <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="label49.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 19</value>
+  </data>
+  <data name="label49.Text" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="txtRepProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 47</value>
+  </data>
+  <data name="txtRepProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 22</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 20</value>
+  </data>
+  <data name="label50.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="label50.Text" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="label51.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="label51.Text" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="txtRepProductcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 20</value>
+  </data>
+  <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="label52.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 19</value>
+  </data>
+  <data name="label52.Text" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>Product Basic Data</value>
+  </data>
+  <data name="tabPage7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 474</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Replacments</value>
+  </data>
+  <data name="CmbValidUnitType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 31</value>
+  </data>
+  <data name="cmbValidStroes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 31</value>
+  </data>
+  <data name="label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="label53.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="label53.Text" xml:space="preserve">
+    <value>Unit Quantity</value>
+  </data>
+  <data name="label54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 31</value>
+  </data>
+  <data name="label54.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label54.Text" xml:space="preserve">
+    <value>Stores</value>
+  </data>
+  <data name="groupBox19.Text" xml:space="preserve">
+    <value>Units Quantity</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Shipment Code</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Validation Expried</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Production Date</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Production Peroid</value>
+  </data>
+  <data name="Column5.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>Product Shipments</value>
+  </data>
+  <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 16</value>
+  </data>
+  <data name="txtVMainProductID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 44</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 47</value>
+  </data>
+  <data name="label23.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 19</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Main Product</value>
+  </data>
+  <data name="txtVProductEName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 76</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 76</value>
+  </data>
+  <data name="label24.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 19</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="txtVProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 47</value>
+  </data>
+  <data name="txtVProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 17</value>
+  </data>
+  <data name="label25.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 19</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 47</value>
+  </data>
+  <data name="label26.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Prodcut Name</value>
+  </data>
+  <data name="txtVProductCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 18</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 18</value>
+  </data>
+  <data name="label27.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Product Basic Data</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 474</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 19</value>
+  </data>
+  <data name="txtAssMainProductId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 51</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 51</value>
+  </data>
+  <data name="label33.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 19</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Main Prodcut</value>
+  </data>
+  <data name="txtAssProductEName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 78</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="label34.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="txtAssProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 49</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 21</value>
+  </data>
+  <data name="label35.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 19</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Prodcut Type</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 49</value>
+  </data>
+  <data name="label36.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="txtAssProductCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 21</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 22</value>
+  </data>
+  <data name="label37.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 19</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>Product Basic Data</value>
+  </data>
+  <data name="AssProductCode.HeaderText" xml:space="preserve">
+    <value>Prodcut Code</value>
+  </data>
+  <data name="AssProductName.HeaderText" xml:space="preserve">
+    <value>Prodcut Name</value>
+  </data>
+  <data name="AssUINTID.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="AssQty.HeaderText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="assemblyTypeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="groupBox18.Text" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 474</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Assemblies</value>
+  </data>
+  <data name="label55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 49</value>
+  </data>
+  <data name="label55.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label55.Text" xml:space="preserve">
+    <value>Newest Expried Date</value>
+  </data>
+  <data name="label56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 21</value>
+  </data>
+  <data name="label56.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 19</value>
+  </data>
+  <data name="label56.Text" xml:space="preserve">
+    <value>Oldest Expried Date</value>
+  </data>
+  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 47</value>
+  </data>
+  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 19</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 101</value>
+  </data>
+  <data name="label32.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="label31.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value> First Peroid Goods</value>
+  </data>
+  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 98</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="label30.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 19</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Output Quantity</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="label29.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 19</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Input Quantity</value>
+  </data>
+  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 73</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 47</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 19</value>
+  </data>
+  <data name="groupBox22.Text" xml:space="preserve">
+    <value>Stores Statistics</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>Cost Price</value>
+  </data>
+  <data name="MaxSalePrice.HeaderText" xml:space="preserve">
+    <value>Max Sale Price</value>
+  </data>
+  <data name="MimSalePrice.HeaderText" xml:space="preserve">
+    <value>Min Sale Price</value>
+  </data>
+  <data name="LastSalePrice.HeaderText" xml:space="preserve">
+    <value>Last Sale Price</value>
+  </data>
+  <data name="MaxBuyPrice.HeaderText" xml:space="preserve">
+    <value>Max Purchase Price</value>
+  </data>
+  <data name="MinBuyPrice.HeaderText" xml:space="preserve">
+    <value>Min Purchase Price</value>
+  </data>
+  <data name="LastBuyPrice.HeaderText" xml:space="preserve">
+    <value>Last Purchase Price</value>
+  </data>
+  <data name="groupBox20.Text" xml:space="preserve">
+    <value>Price Statistics</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>747, 474</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="tabControlProduct.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="tabControlProduct.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabControlProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>755, 501</value>
+  </data>
+  <data name="AddMainAccMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="AddMainAccMenuItem.Text" xml:space="preserve">
+    <value>Add Main Item</value>
+  </data>
+  <data name="AddSubAccMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="AddSubAccMenuItem.Text" xml:space="preserve">
+    <value>Add Sub Item</value>
+  </data>
+  <data name="MenuItemDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="MenuItemDel.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="TreeReFreshMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="TreeReFreshMenuItem.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="TreeOpenAllMItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="TreeOpenAllMItem.Text" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="MenuItemSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="MenuItemSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="PrintTreeMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="PrintTreeMenuItem.Text" xml:space="preserve">
+    <value>Print Tree</value>
+  </data>
+  <data name="AccountMoveMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="AccountMoveMenuItem.Text" xml:space="preserve">
+    <value>Move Item</value>
+  </data>
+  <data name="ContextMenuAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 180</value>
+  </data>
+</root>

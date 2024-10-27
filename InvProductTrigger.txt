@@ -1,0 +1,114 @@
+CREATE TRIGGER delProductTrigger  ON [dbo].[Inv_Products] 
+for   DELETE 
+AS
+
+declare @InvId as bigint
+declare @ProductId as bigint
+declare @UnitId as bigint
+declare @StoreId as bigint
+declare @NewQty as float
+declare @OldQty as float
+declare @InvType as int
+
+print 1
+
+declare @TotalAddCost as money 
+declare @invTotal as money
+declare @InvCostPer as float
+declare @CostPrice as money
+
+declare @NewReoderFlag as bit
+declare @OldReoderFlag as bit
+
+declare @price as money
+declare @ProductTypeID bigint 
+
+select  @ProductId =ProductId from deleted
+select  @UnitId =UnitId from deleted
+select  @StoreId  =StoreId  from deleted
+select  @InvId  =InvId  from deleted
+--select @NewQty= ISNULL(Qty , 0) from inserted
+select @price = ISNULL(price , 0) from deleted
+select @OldQty= ISNULL(Qty, 0) from deleted
+
+--select @NewReoderFlag = ReoderFlag  from deleted
+--select @OldReoderFlag = ReoderFlag  from deleted
+
+--lect @InvType=InvType from invoices where InvId=@InvId
+select @InvType=InvType from deleted
+
+--select @invTotal=invTotal from invoices where InvId=@InvId
+--select @TotalAddCost=TotalAddCost from invoices where InvId=@InvId
+
+--select @ProductTypeID=ProductTypeID from Products where ProductId=@ProductId 
+
+--print @InvType
+if (@InvType=1)   --purchases
+	--begin
+	--update STOCK set QUANTITY = QUANTITY+@NewQty  where STOREID = @StoreId and PRODUCTID=@ProductId
+	--and  UnitID=@UnitId
+	--update STOCK set QUANTITY = QUANTITY-@OldQty  where STOREID = @StoreId and PRODUCTID=@ProductId
+	--and  UnitID=@UnitId
+
+	--if (@NewReoderFlag=1 and @OldReoderFlag=0)
+	begin
+		--update STOCK set QUANTITY = QUANTITY- @OldQty  where STOREID = @StoreId and PRODUCTID=@ProductId and  UnitID=@UnitId
+
+UPDATE STOCK set STOCK.QUANTITY = STOCK.QUANTITY -  ISNULL(deleted.Qty, 0) 
+FROM STOCK,deleted
+WHERE   STOCK.STOREID = deleted.StoreId and STOCK.PRODUCTID=deleted.ProductId and  STOCK.UnitID=deleted.UnitId
+		--update STOCK set QUANTITY = QUANTITY +@OldQty  where STOREID = @StoreId and PRODUCTID=@ProductId and  UnitID=@UnitId
+
+
+	end 
+
+	
+
+if (@InvType=2) --Sales
+	begin
+	--update STOCK set QUANTITY = QUANTITY-@NewQty  where STOREID = @StoreId and PRODUCTID=@ProductId
+		--and  UnitID=@UnitId
+
+	--update STOCK set QUANTITY = QUANTITY+@oldQty  where STOREID = @StoreId and PRODUCTID=@ProductId
+		--and  UnitID=@UnitId
+
+	--if (@NewReoderFlag=1 and @OldReoderFlag=0)
+	--begin
+
+UPDATE STOCK set STOCK.QUANTITY = STOCK.QUANTITY +  ISNULL(deleted.Qty, 0) 
+FROM STOCK,deleted
+WHERE   STOCK.STOREID = deleted.StoreId and STOCK.PRODUCTID=deleted.ProductId and  STOCK.UnitID=deleted.UnitId
+
+		--update STOCK set QUANTITY = QUANTITY+ @OldQty  where STOREID = @StoreId and PRODUCTID=@ProductId and  UnitID=@UnitId
+
+	--if (@ProductTypeID=2)
+	--begin
+		--set @OldQty= -@OldQty*-1
+		--exec UpdateAssembly_QtyValue  @ProductId,@StoreId ,@OldQty,0
+	
+	--end 
+
+		--update STOCK set QUANTITY = QUANTITY -@OldQty  where STOREID = @StoreId and PRODUCTID=@ProductId and  UnitID=@UnitId
+	end 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
